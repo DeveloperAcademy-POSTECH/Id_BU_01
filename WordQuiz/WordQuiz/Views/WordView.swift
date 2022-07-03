@@ -46,6 +46,6 @@ struct WordView: View {
 
 struct WordView_Previews: PreviewProvider {
     static var previews: some View {
-        WordView()
+        WordView(viewModel: ViewModel(), number: .constant(13))
     }
 }
