@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct WordQuiz_reApp: App {
     
+    // EnvironmentObject로 사용하기 위해 선언
     @StateObject var wordsVM = WordsViewModel()
     
     var body: some Scene {
